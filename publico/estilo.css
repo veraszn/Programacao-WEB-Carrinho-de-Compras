@@ -1,0 +1,48 @@
+/* estilo.css — o visual da Loja da Turma (roda no NAVEGADOR) */
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #1a1a1a;
+  background: #f7f8fa;
+}
+header { border-bottom: 3px solid #EB811B; margin-bottom: 1.2rem; }
+header h1 { color: #0b3d67; margin: 0; }
+header p { color: #6b7885; margin: 0.2rem 0 0.8rem; }
+main { display: grid; grid-template-columns: 1.4fr 1fr; gap: 1.5rem; align-items: start; }
+h2 { color: #0b3d67; font-size: 1.15rem; margin-top: 0; }
+section, aside {
+  background: #fff;
+  border: 1px solid #ccd8e4;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+}
+ul { list-style: none; padding: 0; margin: 0; }
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eef1f4;
+}
+li:last-child { border-bottom: none; }
+li > span:first-child { flex: 1; }          /* o nome empurra o resto para a direita */
+aside h2:not(:first-child) { margin-top: 1.4rem; }
+li form { margin: 0; }
+button {
+  background: #0b3d67;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+}
+button:hover { background: #EB811B; }
+input { padding: 0.35rem 0.5rem; border: 1px solid #ccd8e4; border-radius: 6px; }
+.vazio { color: #6b7885; font-style: italic; }
+.total { font-weight: 700; text-align: right; margin: 0.8rem 0; }
+.erro { background: #fdecea; color: #B3211E; padding: 0.5rem 0.8rem; border-radius: 6px; }
+.saudacao { display: flex; gap: 0.8rem; align-items: center; margin-bottom: 1rem; }
+.saudacao form { margin: 0; }

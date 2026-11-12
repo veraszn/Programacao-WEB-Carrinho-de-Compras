@@ -1,0 +1,7 @@
+{
+  "name": "atividade02-loja-da-turma",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atividade 02 — o ponto de partida da Loja da Turma",
+  "dependencies": { "express": "^5.2.1" }
+}
